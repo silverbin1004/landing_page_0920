@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+h1,h2,h3,h4,p,span {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.banner-container{
+    position: relative;
+    height: 888px;
+}
+.main-section{
+    padding: 0px 148px;
+}
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 148px;
+} 
+.lang-right {
+    display: flex;
+    gap: 10px;
+}
+.lang {
+    width: 120px;
+    font-size: 15px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(24, 24, 24);
+    cursor: pointer;
+}
+.login-btn {
+    font-size: 15px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.login-btn:hover{
+    background-color: rgb(192, 0, 0);
+    transition: background-color 0.2s;
+}
+.background-img {
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    width: 100%;
+    height: 888px;
+}
+.background-opacity{
+    position: absolute;
+    width: 100vw;
+    height: 888px;
+    top: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.745);
+}
+.sub-container{
+    width: 100vw;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 30px 30px 30px;
+    margin-top: 30px;
+}
+.title-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+.title-1 p {
+    font-size: 60px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+.title-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 35px;
+    white-space: nowrap;
+}
+.title-2 h3{
+    font-size: 20px;
+    color: white;
+    white-space: nowrap;
+}
+.text-3 p{
+    font-size: 16px;
+    font-weight: 100px;
+    color: white;
+    white-space: nowrap;
+}
+.email-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.email{
+    padding: 13px 10px;
+    width: 370px;
+    height: 30px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.298);
+    border: gray solid 1px;
+    border-radius: 5px;
+}
+.email:focus{
+    color: white;
+}
+.start-btn button{
+    padding: 13px 0px;
+    width: 170px;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.start-btn button:hover{
+    background-color: rgb(192, 0, 0);
+    transition: background-color 0.2s;
+}
+.start-btn img{
+    position: relative;
+    top: 2.5px;
+    margin-left: 10px;
+    filter: invert(100%) sepia(4%) saturate(1075%) hue-rotate(214deg) brightness(114%) contrast(100%);
+}
+.middle-banner-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+}
+.banner-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    width: 910px;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(27, 10, 27), rgb(7, 7, 55));
+}
+.left-content{
+    width: 100%;
+}
+.left-1 {
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.left-2{
+    color: white;
+    font-size: 16px;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+.right-content {
+    width: 160px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(75, 75, 75);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.right-content:hover {
+    background-color: rgb(124, 124, 124);
+    transition: background-color 0.2s;
+}
+.video-container{
+    display: flex;
+    gap: 10px;
+    padding-top: 70px;
+    justify-content: center;
+    align-items:center;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+.video-title{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+    color: white;
+}
+.video-items{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.video-item img{
+    border: none;
+    border-radius: 10px;
+}
+.rank{
+    position: relative;
+    left: 25px;
+    bottom: 20px;
+    font-size: 100px;
+    font-weight: 900;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 3px white;
+}
+
+.reason-container{
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items:center;
+}
+.reason{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.reason-title{
+    font-size: 25px;
+    color: white;
+}
+.reason-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.reason-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 1.5rem 1.5rem 6rem 1.5rem ;
+    border: none;
+    border-radius: 17px;
+    background: linear-gradient( rgb(27, 10, 27), rgb(7, 7, 55));
+}
+.reason-card-title{
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+.reason-card-title p {
+    padding-bottom: 10px;
+}
+.reason-text p{
+    color: rgb(205, 205, 205);
+    font-size: 16px;
+    font-weight: 400;
+    word-break: break-all;
+}
+.reason-icon-1{
+    width: 72px;
+    height: 72px;
+    position: relative;
+    top: 130px;
+    left: 100px;
+    filter: invert(100%) sepia(4%) saturate(1075%) hue-rotate(214deg) brightness(114%) contrast(100%);
+}
+.reason-icon-2{
+    width: 72px;
+    height: 72px;
+    position: relative;
+    top: 85px;
+    left: 95px;
+    filter: invert(100%) sepia(4%) saturate(1075%) hue-rotate(214deg) brightness(114%) contrast(100%);
+}
+.reason-icon-3{
+    width: 72px;
+    height: 72px;
+    position: relative;
+    top: 105px;
+    left: 105px;
+    filter: invert(100%) sepia(4%) saturate(1075%) hue-rotate(214deg) brightness(114%) contrast(100%);
+}
+.reason-icon-4{
+    width: 72px;
+    height: 72px;
+    position: relative;
+    top: 65px;
+    left: 115px;
+    filter: invert(100%) sepia(4%) saturate(1075%) hue-rotate(214deg) brightness(114%) contrast(100%);
+}
