@@ -155,6 +155,13 @@ h1,h2,h3,h4,p,span {
     padding-top: 30px;
     gap: 10px;
 }
+.middle-banner-container:hover{
+    transform: scale(1.05,1.05);
+    transition-duration: 0.5s;
+}
+.banner-contents:hover{
+    background: linear-gradient(to right, rgb(57, 21, 57), rgb(11, 11, 82));
+}
 .banner-contents {
     display: flex;
     justify-content: space-between;
@@ -216,6 +223,23 @@ h1,h2,h3,h4,p,span {
     justify-content: center;
     gap: 30px;
 }
+.item-1:hover{
+    transform: scale(1.05,1.05);
+    transition-duration: 0.5s;
+}
+.item-2:hover{
+    transform: scale(1.05,1.05);
+    transition-duration: 0.5s;
+}
+.item-3:hover{
+    transform: scale(1.05,1.05);
+    transition-duration: 0.5s;
+}
+.item-4:hover{
+    transform: scale(1.05,1.05);
+    transition-duration: 0.5s;
+}
+
 .video-item img{
     border: none;
     border-radius: 10px;
@@ -308,4 +332,27 @@ h1,h2,h3,h4,p,span {
     top: 65px;
     left: 115px;
     filter: invert(100%) sepia(4%) saturate(1075%) hue-rotate(214deg) brightness(114%) contrast(100%);
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 70px;
+    align-items: center;
+}
+.footer-title-1{
+    color: white;
+    font-size: 16px;
+}
+.email-2{
+    padding: 13px 10px;
+    width: 600px;
+    height: 30px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.298);
+    border: gray solid 1px;
+    border-radius: 5px;
+}
+.email-2:focus{
+    color: white;
 }
